@@ -2,7 +2,7 @@
 <package format="2">
   <name>lidar_processor</name>
   <version>0.0.1</version>
-  <description>General point cloud processor package</description>
+  <description>General point cloud processor ROS package</description>
   <maintainer email="casparvv52@gmail.com">celepar</maintainer>
   <license>TODO</license>
   <buildtool_depend>catkin</buildtool_depend>
