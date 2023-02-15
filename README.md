@@ -23,11 +23,13 @@ rosrun lidar_processor lidar_processor
 ```
 
 ### To do:
-- Test
-- Adjust filtering of PCL to get constant number of points:
-- https://pcl.readthedocs.io/projects/tutorials/en/master/remove_outliers.html#remove-outliers
-- https://pointclouds.org/documentation/classpcl_1_1_conditional_removal.html
-- https://pcl.readthedocs.io/projects/tutorials/en/master/statistical_outlier.html#statistical-outlier-removal
+- [x] Test with rosbag data of LiDAR sensor
+- [ ] Test linking the output to planner for real-world robot experiment
+- [ ] Adjust filtering of PCL to get constant number of points, which is currently a requirement for DSI optimization fabrics
+  - Current downsampling filters 86% of points but output is not constant (raw output not constant as well)
+    - https://pcl.readthedocs.io/projects/tutorials/en/master/remove_outliers.html#remove-outliers
+    - https://pointclouds.org/documentation/classpcl_1_1_conditional_removal.html
+    - https://pcl.readthedocs.io/projects/tutorials/en/master/statistical_outlier.html#statistical-outlier-removal
 
 #### References
 - https://wiki.ros.org/pcl/Tutorials
