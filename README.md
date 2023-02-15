@@ -22,7 +22,15 @@ source devel/setup.bash
 rosrun lidar_processor lidar_processor
 ```
 
+### To do:
+- Test
+- Adjust filtering of PCL to get constant number of points:
+- https://pcl.readthedocs.io/projects/tutorials/en/master/remove_outliers.html#remove-outliers
+- https://pointclouds.org/documentation/classpcl_1_1_conditional_removal.html
+- https://pcl.readthedocs.io/projects/tutorials/en/master/statistical_outlier.html#statistical-outlier-removal
+
 #### References
 - https://wiki.ros.org/pcl/Tutorials
 - https://pointclouds.org/documentation/
 - https://pcl.readthedocs.io/en/latest/voxel_grid.html
+
