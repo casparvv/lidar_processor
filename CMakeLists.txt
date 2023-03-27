@@ -15,7 +15,9 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-add_executable(lidar_processor src/lidar_processor.cpp)
+catkin_install_python(PROGRAMS src/laser_scan_processor.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
+add_executable(lidar_processor src/lidar_processor.cpp)
 target_link_libraries(lidar_processor ${catkin_LIBRARIES})
 
