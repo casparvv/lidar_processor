@@ -24,11 +24,11 @@ source devel/setup.bash
 ```
 4. Run package
 
-For (1) LiDAR LaserScan data
+(1) LiDAR LaserScan data
 ```
 rosrun lidar_processor laser_scan_processor.py
 ```
-For (2) LiDAR PointCloud data
+(2) LiDAR PointCloud data
 ```
 rosrun lidar_processor lidar_processor
 ```
